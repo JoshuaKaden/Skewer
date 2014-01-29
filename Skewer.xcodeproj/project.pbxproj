@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93B66E1F189934680025FCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B66E1E189934680025FCCA /* Foundation.framework */; };
+		93B66E21189934680025FCCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B66E20189934680025FCCA /* CoreGraphics.framework */; };
+		93B66E23189934680025FCCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B66E22189934680025FCCA /* UIKit.framework */; };
+		93B66E29189934680025FCCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93B66E27189934680025FCCA /* InfoPlist.strings */; };
+		93B66E2B189934680025FCCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B66E2A189934680025FCCA /* main.m */; };
+		93B66E2F189934680025FCCA /* JSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B66E2E189934680025FCCA /* JSKAppDelegate.m */; };
+		93B66E32189934680025FCCA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B66E30189934680025FCCA /* Main_iPhone.storyboard */; };
+		93B66E35189934680025FCCA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B66E33189934680025FCCA /* Main_iPad.storyboard */; };
+		93B66E38189934680025FCCA /* JSKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B66E37189934680025FCCA /* JSKViewController.m */; };
+		93B66E3A189934680025FCCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B66E39189934680025FCCA /* Images.xcassets */; };
+		93B66E41189934680025FCCA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B66E40189934680025FCCA /* XCTest.framework */; };
+		93B66E42189934680025FCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B66E1E189934680025FCCA /* Foundation.framework */; };
+		93B66E43189934680025FCCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B66E22189934680025FCCA /* UIKit.framework */; };
+		93B66E4B189934680025FCCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93B66E49189934680025FCCA /* InfoPlist.strings */; };
+		93B66E4D189934680025FCCA /* SkewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B66E4C189934680025FCCA /* SkewerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93B66E44189934680025FCCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B66E13189934680025FCCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B66E1A189934680025FCCA;
+			remoteInfo = Skewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93B66E1B189934680025FCCA /* Skewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B66E1E189934680025FCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93B66E20189934680025FCCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93B66E22189934680025FCCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93B66E26189934680025FCCA /* Skewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Skewer-Info.plist"; sourceTree = "<group>"; };
+		93B66E28189934680025FCCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93B66E2A189934680025FCCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93B66E2C189934680025FCCA /* Skewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Skewer-Prefix.pch"; sourceTree = "<group>"; };
+		93B66E2D189934680025FCCA /* JSKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSKAppDelegate.h; sourceTree = "<group>"; };
+		93B66E2E189934680025FCCA /* JSKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSKAppDelegate.m; sourceTree = "<group>"; };
+		93B66E31189934680025FCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		93B66E34189934680025FCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		93B66E36189934680025FCCA /* JSKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSKViewController.h; sourceTree = "<group>"; };
+		93B66E37189934680025FCCA /* JSKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSKViewController.m; sourceTree = "<group>"; };
+		93B66E39189934680025FCCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93B66E3F189934680025FCCA /* SkewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B66E40189934680025FCCA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93B66E48189934680025FCCA /* SkewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkewerTests-Info.plist"; sourceTree = "<group>"; };
+		93B66E4A189934680025FCCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93B66E4C189934680025FCCA /* SkewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkewerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B66E18189934680025FCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B66E21189934680025FCCA /* CoreGraphics.framework in Frameworks */,
+				93B66E23189934680025FCCA /* UIKit.framework in Frameworks */,
+				93B66E1F189934680025FCCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B66E3C189934680025FCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B66E41189934680025FCCA /* XCTest.framework in Frameworks */,
+				93B66E43189934680025FCCA /* UIKit.framework in Frameworks */,
+				93B66E42189934680025FCCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B66E12189934680025FCCA = {
+			isa = PBXGroup;
+			children = (
+				93B66E24189934680025FCCA /* Skewer */,
+				93B66E46189934680025FCCA /* SkewerTests */,
+				93B66E1D189934680025FCCA /* Frameworks */,
+				93B66E1C189934680025FCCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B66E1C189934680025FCCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B66E1B189934680025FCCA /* Skewer.app */,
+				93B66E3F189934680025FCCA /* SkewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B66E1D189934680025FCCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93B66E1E189934680025FCCA /* Foundation.framework */,
+				93B66E20189934680025FCCA /* CoreGraphics.framework */,
+				93B66E22189934680025FCCA /* UIKit.framework */,
+				93B66E40189934680025FCCA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93B66E24189934680025FCCA /* Skewer */ = {
+			isa = PBXGroup;
+			children = (
+				93B66E2D189934680025FCCA /* JSKAppDelegate.h */,
+				93B66E2E189934680025FCCA /* JSKAppDelegate.m */,
+				93B66E30189934680025FCCA /* Main_iPhone.storyboard */,
+				93B66E33189934680025FCCA /* Main_iPad.storyboard */,
+				93B66E36189934680025FCCA /* JSKViewController.h */,
+				93B66E37189934680025FCCA /* JSKViewController.m */,
+				93B66E39189934680025FCCA /* Images.xcassets */,
+				93B66E25189934680025FCCA /* Supporting Files */,
+			);
+			path = Skewer;
+			sourceTree = "<group>";
+		};
+		93B66E25189934680025FCCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B66E26189934680025FCCA /* Skewer-Info.plist */,
+				93B66E27189934680025FCCA /* InfoPlist.strings */,
+				93B66E2A189934680025FCCA /* main.m */,
+				93B66E2C189934680025FCCA /* Skewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93B66E46189934680025FCCA /* SkewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				93B66E4C189934680025FCCA /* SkewerTests.m */,
+				93B66E47189934680025FCCA /* Supporting Files */,
+			);
+			path = SkewerTests;
+			sourceTree = "<group>";
+		};
+		93B66E47189934680025FCCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B66E48189934680025FCCA /* SkewerTests-Info.plist */,
+				93B66E49189934680025FCCA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B66E1A189934680025FCCA /* Skewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B66E50189934680025FCCA /* Build configuration list for PBXNativeTarget "Skewer" */;
+			buildPhases = (
+				93B66E17189934680025FCCA /* Sources */,
+				93B66E18189934680025FCCA /* Frameworks */,
+				93B66E19189934680025FCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skewer;
+			productName = Skewer;
+			productReference = 93B66E1B189934680025FCCA /* Skewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93B66E3E189934680025FCCA /* SkewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B66E53189934680025FCCA /* Build configuration list for PBXNativeTarget "SkewerTests" */;
+			buildPhases = (
+				93B66E3B189934680025FCCA /* Sources */,
+				93B66E3C189934680025FCCA /* Frameworks */,
+				93B66E3D189934680025FCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B66E45189934680025FCCA /* PBXTargetDependency */,
+			);
+			name = SkewerTests;
+			productName = SkewerTests;
+			productReference = 93B66E3F189934680025FCCA /* SkewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B66E13189934680025FCCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JSK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chadford Software";
+				TargetAttributes = {
+					93B66E3E189934680025FCCA = {
+						TestTargetID = 93B66E1A189934680025FCCA;
+					};
+				};
+			};
+			buildConfigurationList = 93B66E16189934680025FCCA /* Build configuration list for PBXProject "Skewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93B66E12189934680025FCCA;
+			productRefGroup = 93B66E1C189934680025FCCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B66E1A189934680025FCCA /* Skewer */,
+				93B66E3E189934680025FCCA /* SkewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B66E19189934680025FCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B66E35189934680025FCCA /* Main_iPad.storyboard in Resources */,
+				93B66E3A189934680025FCCA /* Images.xcassets in Resources */,
+				93B66E32189934680025FCCA /* Main_iPhone.storyboard in Resources */,
+				93B66E29189934680025FCCA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B66E3D189934680025FCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B66E4B189934680025FCCA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B66E17189934680025FCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B66E2B189934680025FCCA /* main.m in Sources */,
+				93B66E38189934680025FCCA /* JSKViewController.m in Sources */,
+				93B66E2F189934680025FCCA /* JSKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B66E3B189934680025FCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B66E4D189934680025FCCA /* SkewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93B66E45189934680025FCCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B66E1A189934680025FCCA /* Skewer */;
+			targetProxy = 93B66E44189934680025FCCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93B66E27189934680025FCCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B66E28189934680025FCCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93B66E30189934680025FCCA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B66E31189934680025FCCA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		93B66E33189934680025FCCA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B66E34189934680025FCCA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		93B66E49189934680025FCCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B66E4A189934680025FCCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93B66E4E189934680025FCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93B66E4F189934680025FCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B66E51189934680025FCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skewer/Skewer-Prefix.pch";
+				INFOPLIST_FILE = "Skewer/Skewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93B66E52189934680025FCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skewer/Skewer-Prefix.pch";
+				INFOPLIST_FILE = "Skewer/Skewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93B66E54189934680025FCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Skewer.app/Skewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skewer/Skewer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SkewerTests/SkewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93B66E55189934680025FCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Skewer.app/Skewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skewer/Skewer-Prefix.pch";
+				INFOPLIST_FILE = "SkewerTests/SkewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B66E16189934680025FCCA /* Build configuration list for PBXProject "Skewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B66E4E189934680025FCCA /* Debug */,
+				93B66E4F189934680025FCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B66E50189934680025FCCA /* Build configuration list for PBXNativeTarget "Skewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B66E51189934680025FCCA /* Debug */,
+				93B66E52189934680025FCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93B66E53189934680025FCCA /* Build configuration list for PBXNativeTarget "SkewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B66E54189934680025FCCA /* Debug */,
+				93B66E55189934680025FCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B66E13189934680025FCCA /* Project object */;
+}
